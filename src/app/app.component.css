@@ -1,0 +1,55 @@
+button {
+    background-color: #2B3BCF;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+ }
+
+ a:link, a:visited { 
+    background-color: #848686; 
+    color: white; 
+    padding: 10px 25px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+ } 
+ a:hover, a:active {
+    background-color: #BD9696;
+ }
+
+ input[type = text], input[type = password] { 
+   width: 40%; 
+   padding: 12px 20px; 
+   margin: 8px 0; 
+   display: inline-block; 
+   border: 1px solid #B3A9A9; 
+   box-sizing: border-box; 
+} 
+
+input[type = submit] { 
+   padding: 12px 20px; 
+   margin: 8px 0; 
+   display: inline-block; 
+   border: 1px solid #B3A9A9; 
+   box-sizing: border-box; 
+}
+
+table {
+   width: 100%;
+}
+
+cdk-virtual-scroll-viewport {
+   height: 500px;
+}
+
+.divlayout{
+   width: 40%;
+   background-color: #ccc;
+   margin-bottom: 5px;
+   padding: 10px 10px;
+   border: 3px solid #73AD21;
+}
